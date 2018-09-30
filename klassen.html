@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="js/coment.js">
 </head>
 <body>
-        <section> <!-- toppnav -->
-            <nav class="topnav">
-                <ul>
-                    <li><a href="index.html"><img src="media/icons/my.png" alt="" class="navlogo"  id="#top"></a></li>
+    <section> <!-- TOPNAV -->
+        <nav class="topnav" id="myTopnav">
+            <ul>
+                <li><a href="index.html"><img src="media/icons/my.png" alt="" class="navlogo"  id="#top"></a></li>
                     <li><a href="utbildning.html">Content Producer</a></li>
                     <li><a href="klassen.html" class="active">Klassen</a></li>
                     <li><a href="kontakt.html">Kontakt</a></li>
@@ -27,11 +27,16 @@
         </section>
     <header>
         <img src="media/image/klassen.jpeg" alt="Malmö Yrkeshögskolan" style="width: 100%">
-        <h1 class="h1">Klassens Forum</h1>
+        <div class="row"></div>
+        <div class="row"></div>
+        <h1 class="h1 wrapper">Klassens Forum</h1>
+        <div class="row"></div>
+        <div class="row"></div>
     </header>
     <main >
-        <section> <!-- klassen -->
-            <div class="div-padd">
+        <section class="wrapper">
+            <div class="div-grey">
+                    <div class="row"></div>
                 <h2>Välkommen till Content Producer 2018 och våra olilka mötesplatser!</h2>
                 <p>
                     Här har vi samlat de olika kontaktvägarna mellan studenter och lärare på årets Content Producer utbildning. Vi använder oss av fb, slack och sidan kunskap.nu där lektioninnehåll och videor läggs upp allt eftersom avsnitten är gjorda.
@@ -45,9 +50,11 @@
                         <a href="https://slack.com/">Ladda hem "Slack" för att skapa grupp och kontakt med klassen.</a>
                     </li>
                 </ul>
-            </div> <!-- / .div-padd -->
-        </section>
-        <div class="comments comment">
+                <div class="row"></div>
+            </div> <!-- / .div-grey -->
+        </section> <!-- / .wrapper -->
+        <section class="wrapper">  <!-- KOMENTARFÄLT -->
+        <div>
             <h1>Comments</h1>
             <textarea placeholder="Share your thoughts..." class="comment-content" maxlength="1000"></textarea>
             <div class="insert-text">
@@ -71,7 +78,9 @@
             <div class="list-comments">
                 <div>
                     <p><span class="username">Username</span> | 06/15/2018 - 10:10AM</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
                     <p>
                         28&nbsp;<i class="fa fa-caret-up"></i>&nbsp;&nbsp;5<i class="fa fa-caret-down"></i>
                         | <span><a href="#">Reply</a></span>
@@ -79,33 +88,42 @@
                 </div>
                 <div>
                     <p><span class="username">Username</span> | 06/15/2018 - 10:10AM</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
                     <p>
                         28&nbsp;<i class="fa fa-caret-up"></i>&nbsp;&nbsp;5<i class="fa fa-caret-down"></i>
                         | <span><a href="#">Reply</a></span>
                     </p>
 
                     <div class="list-reply">
-                        <p><span class="username">Username</span> | 06/15/2018 - 10:10AM</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>
+                            <span class="username">Username</span> | 06/15/2018 - 10:10AM
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </p>
                         <p>
                             28&nbsp;<i class="fa fa-caret-up"></i>&nbsp;&nbsp;5<i class="fa fa-caret-down"></i>
                             | <span><a href="#">Reply</a></span>
                         </p>
-                    </div>
+                    </div>  <!-- / .list-reply -->
                 </div>
-            </div>
+            </div>  <!-- / .list-comments -->
         </div>
+        </section> <!-- / .wrapper -->
    
-        <section> <!-- botnav-->
+        <section> <!-- BOTNAV-->
             <div>
                 <nav class="botnav">
+                    <div class="row"></div>
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="utbildning.html">Content Producer</a></li>
                         <li><a href="klassen.html" id="top">Klassen</a></li> <!-- Klicka på länken så hamnar du på topp -->
                         <li><a href="kontakt.html">Kontakt</a></li>
                     </ul> 
+                    <div class="row"></div>
                 </nav> <!-- / .botnav -->
             </div>
         </section>
@@ -129,6 +147,7 @@
             <div class="copyright">
                 <p>All rights reserved &copy; 2018</p>
             </div> <!-- / .copyright -->
+            <div class="row"></div>
         </section>
     </footer>
     <script>
