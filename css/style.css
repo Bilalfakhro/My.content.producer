@@ -4,6 +4,7 @@ body {
   margin-top: 5em;
 }
 
+
 h2, h3, h4 {
   padding: 15px;
 }
@@ -28,6 +29,12 @@ h4 a {
   background-color: whitesmoke;
 }
 
+.row {
+  height: 1em;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0); /* transparant färg */
+  opacity: 4;
+}
 
 /* ========== END BODY =========== */
 
@@ -46,7 +53,8 @@ width: 200px;
 
 /* ========== NAVBAR =========== */
 .topnav {
-  background-color: rgba(0, 0, 0, 0.75); /* transparant färg */
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 10;
   position: fixed;
   width: 100%;
   top: 0;
@@ -173,7 +181,7 @@ width: 200px;
 /* ========== BOTTOMNAV =========== */
 
 .botnav {
-  background-color: rgba(0, 0, 0, 0.75); /* transparant färg */
+  background-color: rgba(0, 0, 0, 0.75);
   width: 100%;
 }
 .botnav ul li a {
