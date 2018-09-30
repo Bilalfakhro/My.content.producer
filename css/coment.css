@@ -1,0 +1,87 @@
+/* =============== COMMENT BOX ==============*/
+
+* {
+    font-family: Source Sans Pro;
+  }
+  input[type="submit"]{
+    width: 100px;
+    padding: 5px 0px;
+    float: right;
+    background-color: orange;
+    margin-top: -16px;
+  }
+  input[type="text"]{
+    width: 43%;
+    padding: 8px 0px;
+    border: 1px solid #dfdfdf;
+    text-indent: 5px;
+  }
+  
+  input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    font-style: italic;
+    padding: 5px;
+  }
+  .comment-content{
+    width: 97%;
+    padding: 10px;
+    min-height: 80px;
+    outline: none;
+    background: #f9f9f9;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .comment-post {
+    background-color: yellow;
+    width:40%;
+    display: none;
+  }
+  .comment-post i{
+    padding: 0 0px 0px 10px;
+  }
+  .content{
+    width: 100%;
+  }
+  .username {
+  color: #4c6c85;
+  }
+  .comments{
+    width: 600px;
+    margin: 30px 30px;
+  }
+  
+  .insert-text{
+    position: relative;
+    margin: 10px 0px 30px 0px;
+  }
+  .list-comments{
+    margin-top: 30px;
+    border-bottom: 1px solid #dfdfdf;
+    width: 100%;
+  }
+  
+  .list-comments > div{
+    padding: 10px 0px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    overflow-wrap: break-word;
+  }
+   
+  .list-reply {
+    margin-left: 10%;
+    padding: 0px 20px 0px;
+    width: 100%;
+    border: none;
+    overflow-wrap: break-word;
+    border-left: 1px solid #dfdfdf;
+  }
+  textarea {
+    border: 1px solid #dfdfdf;
+    resize: none;
+    overflow: auto;
+  }
+  
+  .comment-content:focus{
+    background: #fff;
+  }
+  
+  /* =============== END COMMRNT BOX ==============*/
+  

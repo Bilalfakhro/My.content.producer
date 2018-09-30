@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home | Mysite.com</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
+</head>
+<body lang="sv">
+    <section> <!-- toppnav -->
+        <nav class="topnav">
+            <ul>
+                <li><a href="index.html"><img src="media/icons/my.png" alt="" class="navlogo"  id="#top"></a></li>
+                <li><a href="utbildning.html">Content Producer</a></li>
+                <li><a href="klassen.html">Klassen</a></li>
+                <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                <li><a href="javascript:void(0);" id="menu-icon" onclick="navToggle()"><i class="material-icons">menu</i></a></li>
+            </ul>
+        </nav>  <!-- / .topnav -->
+    </section>
+    <header>
+        <h1 class="h1">Kontakt</h1>
+    </header>
+    <main>
+        <section> <!-- google mapp -->
+            <div class="my.map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2253.4564735400395!2d12.992077615925057!3d55.61147258051579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a3f8852b72df%3A0xe5fd10a7aec1a66c!2zTWFsbcO2IFlya2VzaMO2Z3Nrb2xh!5e0!3m2!1ssv!2sse!4v1537356190470" width="100%" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div> <!-- / .my.map -->
+        </section>                               
+        <section> <!-- kontakt -->
+            <div class="grid-container col-3">
+                <div class="item1">
+                    <h3>Malmö Yrkeshögskola</h3>
+                        <p> 
+                            Anckargripsgatan 3 <br>
+                            211 19 MALMÖ <br>
+                            info@my.se <br>
+                            0200-210 999
+                        </p>
+                </div> <!-- /.item1 -->
+                <div class="item2">
+                    <h3>Claes Magnusson</h3>
+                        <p>
+                            Certifierad utbildningsledare <br>
+                            claes@my.se <br>
+                            0704-40 40 00
+                        </p>
+                </div> <!-- /.item2 -->
+                <div class="item3">
+                    <h3>Marie Bjelksäter</h3>
+                        <p>
+                            Certifierad utbildningsledare <br>
+                            marie@my.se <br>
+                            0739-73 00 03
+                        </p>
+                </div> <!-- /.item3 -->
+            </div> <!-- /.grid-container col-3-->
+        </section>
+        <section> <!-- botnav -->
+            <nav class="botnav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="utbildning.html">Utbildningar</a></li>
+                    <li><a href="klassen.html">Klassen</a></li>
+                    <li><a href="kontakt.html" id="top">Kontakt</a></li> <!-- Klicka på länken så hamnar du på topp -->
+                </ul> 
+            </nav> <!-- / .botnav -->
+        </section>
+        <footer>
+            <section> <!-- sociala medier -->
+                <ul class="socicons-list socialmedia">
+                    <li>
+                        <a href='https://www.facebook.com' target='_blank'><span class="socicon-facebook"></span></a> 
+                    </li>
+                    <li>
+                        <a href='https://www.instagram.com' target='_blank'><span class="socicon-instagram"></span></a> 
+                    </li> 
+                    <li>
+                        <a href='https://www.twitter.com' target='_blank'><span class="socicon-twitter"></span></a> 
+                    </li>
+                    <li>
+                        <a href='https://www.google.com' target='_blank'><span class="socicon-googleplus"></span></a> 
+                    </li> 
+                </ul> <!-- / .socicons-list socialmedia -->
+            <div class="copyright">
+                    <p>All rights reserved &copy; 2018</p>
+            </div> <!-- / .copyright -->
+            </section>
+        </footer>
+    <script>
+        /* Detta är en flerradskommentar i JavaScript */
+        // Detta är en enradskommentar i JS
+    
+    
+        /* En funktion som lägger till klassen "dropped" på .topnav när användaren trycker på iconen */
+        function navToggle() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " dropped";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    
+    </script>
+     </main>
+</body>
+</html>

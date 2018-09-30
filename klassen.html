@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Klassens Forum</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
+    <link rel="stylesheet" href="css/coment.css">
+    <link rel="stylesheet" href="js/coment.js">
+</head>
+<body lang="sv">
+        <section> <!-- toppnav -->
+            <nav class="topnav">
+                <ul>
+                    <li><a href="index.html"><img src="media/icons/my.png" alt="" class="navlogo"  id="#top"></a></li>
+                    <li><a href="utbildning.html">Content Producer</a></li>
+                    <li><a href="klassen.html"  class="active">Klassen</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="javascript:void(0);" id="menu-icon" onclick="navToggle()"><i class="material-icons">menu</i></a></li>
+                </ul>
+            </nav> <!-- / .topnav -->
+        </section>
+    <header>
+        <img src="media/image/klassen.jpeg" alt="Malmö Yrkeshögskolan" style="width: 100%">
+        <h1 class="h1">Klassens Forum</h1>
+    </header>
+    <main >
+        <section> <!-- klassen -->
+            <div class="div-padd">
+                <h2>Välkommen till Content Producer 2018 och våra olilka mötesplatser!</h2>
+                <p>
+                    Här har vi samlat de olika kontaktvägarna mellan studenter och lärare på årets Content Producer utbildning. Vi använder oss av fb, slack och sidan kunskap.nu där lektioninnehåll och videor läggs upp allt eftersom avsnitten är gjorda.
+                </p>
+                <ul>
+                    <li> <a href="http://kunskap.nu/login/index.php">Kunskap.nu (kräver inloggningsuppgifter)</a></li>
+                    <li>
+                        <a href="https://www.facebook.com/groups/491166758022799/">Facebookgrupp för årets Content Producer medlemmar.</a>
+                    </li>
+                    <li>
+                        <a href="https://slack.com/">Ladda hem "Slack" för att skapa grupp och kontakt med klassen.</a>
+                    </li>
+                </ul>
+            </div> <!-- / .div-padd -->
+        </section>
+        <div class="comments comment">
+            <h1>Comments</h1>
+            <textarea placeholder="Share your thoughts..." class="comment-content" maxlength="1000"></textarea>
+            <div class="insert-text">
+                <span id="chars">20</span> characters remaining
+                <div class="comment-as">
+                    <span>
+                        <strong>Comment as:&nbsp;</strong> <input type="text" placeholder="enter your first name and last initial"></span>
+                        <span>
+                            <input type="submit" value="Publish" />
+                        </span>
+                    <p class="comment-post">Your Comment has been posted<i class="fa fa-close"></i></p>
+                </div>
+            </div>
+            <div class="comment-sort">
+                <span>Sort By</span>
+                <select>
+                    <option value="recent">most recent</option>
+                    <option value="popular">most popular</option>
+                </select>
+            </div>
+            <div class="list-comments">
+                <div>
+                    <p><span class="username">Username</span> | 06/15/2018 - 10:10AM</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>
+                        28&nbsp;<i class="fa fa-caret-up"></i>&nbsp;&nbsp;5<i class="fa fa-caret-down"></i>
+                        | <span><a href="#">Reply</a></span>
+                    </p>
+                </div>
+                <div>
+                    <p><span class="username">Username</span> | 06/15/2018 - 10:10AM</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>
+                        28&nbsp;<i class="fa fa-caret-up"></i>&nbsp;&nbsp;5<i class="fa fa-caret-down"></i>
+                        | <span><a href="#">Reply</a></span>
+                    </p>
+
+                    <div class="list-reply">
+                        <p><span class="username">Username</span> | 06/15/2018 - 10:10AM</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>
+                            28&nbsp;<i class="fa fa-caret-up"></i>&nbsp;&nbsp;5<i class="fa fa-caret-down"></i>
+                            | <span><a href="#">Reply</a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+        <section> <!-- botnav-->
+            <div>
+                <nav class="botnav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="utbildning.html">Content Producer</a></li>
+                        <li><a href="klassen.html" id="top">Klassen</a></li> <!-- Klicka på länken så hamnar du på topp -->
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul> 
+                </nav> <!-- / .botnav -->
+            </div>
+        </section>
+    <footer>
+        <section> <!-- socialmedia -->
+            
+            <ul class="socicons-list socialmedia">
+                    <li>
+                        <a href='https://www.facebook.com' target='_blank'><span class="socicon-facebook"></span></a> 
+                    </li>
+                    <li>
+                        <a href='https://www.instagram.com' target='_blank'><span class="socicon-instagram"></span></a> 
+                    </li> 
+                    <li>
+                        <a href='https://www.twitter.com' target='_blank'><span class="socicon-twitter"></span></a> 
+                    </li>
+                    <li>
+                        <a href='https://www.google.com' target='_blank'><span class="socicon-googleplus"></span></a> 
+                    </li> 
+            </ul> <!-- / .socicons-list socialmedia -->
+            <div class="copyright">
+                <p>All rights reserved &copy; 2018</p>
+            </div> <!-- / .copyright -->
+        </section>
+    </footer>
+    <script>
+        /* Detta är en flerradskommentar i JavaScript */
+        // Detta är en enradskommentar i JS
+    
+    
+        /* En funktion som lägger till klassen "dropped" på .topnav när användaren trycker på iconen */
+        function navToggle() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " dropped";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    
+    </script>
+     </main>
+</body>
+</html>

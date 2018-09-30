@@ -1,0 +1,250 @@
+/* ========== BODY =========== */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 5em;
+}
+
+h2, h3, h4 {
+  padding: 15px;
+}
+
+p {
+  margin-left: 15px;
+}
+.div-pad {
+  padding: 15px;
+}
+
+h4 a {
+  padding: 15px;
+  background-color: goldenrod;
+}
+
+.h1 {
+  padding: 15px;
+}
+
+.div-grey {
+  background-color: whitesmoke;
+}
+
+
+/* ========== END BODY =========== */
+
+/* ========== BILDKLASS FÖR BILD I TEXT ========= */
+.img-small{
+  display: inline;
+  padding: 15px;
+}
+
+.img-responsive {
+width: 200px;
+
+}
+
+/* ======== END BILDKLASS FÖR BILD I TEXT ===== */
+
+/* ========== NAVBAR =========== */
+.topnav {
+  background-color: rgba(0, 0, 0, 0.75); /* transparant färg */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.topnav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.topnav ul li {
+  display: inline;
+}
+
+.topnav ul li a {
+  color: rgb(255, 255, 255); /* 255*3 = vit  */
+  padding: 1.5em;
+  text-decoration: none;
+  display: none;
+}
+
+.topnav ul li a:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+.topnav ul li:first-child a {
+  display: inline-block;
+  padding: 0;
+
+}
+
+#menu-icon {
+  float: right;
+  display: block;
+}
+
+.topnav.dropped ul li a {
+  display: block;
+}
+
+.topnav.dropped #menu-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.material-icons {
+  font-size: 1em;
+}
+
+.active {
+  background-color: goldenrod;
+}
+
+.navlogo {
+  height: 4em;
+  width: auto;
+  vertical-align: middle;
+}
+
+.centered {
+  text-align: center;
+}
+
+.comment {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 600px) {
+  #menu-icon {
+      display: none;
+  }
+  .topnav ul li a {
+      display: inline-block;
+  }
+  .my.map {
+      max-width: 100%;
+      height: auto;
+  }
+  .comment {
+      padding: 5px;
+      max-width: 100%;
+      height: auto;
+  }
+}
+/* ========== END NAVBAR =========== */
+
+/* ========== GOOGLE MAP =========== */
+.my.map {
+  max-width: 100%;
+  height: auto;
+}
+/* ========== END GOOGLE MAP =========== */
+
+/* ========== GRID =========== */
+.grid-container {
+  display: grid;
+  grid-gap: 0em;
+  text-align: center;
+}
+
+.grid-item {
+  background-color: whitesmoke;
+  padding: 2em;
+  text-align: left;
+}
+
+@media screen and (min-width: 700px) {
+
+  .col-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/* ========== END GRID =========== */
+
+/* ========== BOTTOMNAV =========== */
+
+.botnav {
+  background-color: rgba(0, 0, 0, 0.75); /* transparant färg */
+  width: 100%;
+}
+.botnav ul li a {
+  color: rgb(255, 255, 255); /* 255*3 = vit  */
+  text-decoration: none;
+  padding: 1em;
+  display: inline-block;
+}
+
+.botnav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.botnav ul li a:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+/* ========== END BOTTOMNAV =========== */
+
+/* =============== SOCIAL MEDIA ==============*/
+
+.socialmedia {
+  text-align: center;
+}
+.socicons-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.socicons-list li {
+  margin: 10px 10px;
+}
+
+.socicons-list li a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #f1f1f1;
+  transition: all ease-in-out 150ms;
+}
+
+.socicons-list li a:hover {
+  text-shadow: 0 5px 10px #212121;
+}
+
+.socicons-list li:nth-child(1) a {
+  background-color: #3e5b98;
+}
+
+.socicons-list li:nth-child(2) a {
+  background-color: #c13584;
+}
+
+.socicons-list li:nth-child(3) a {
+  background-color: #4da7de;
+}
+
+.socicons-list li:nth-child(4) a {
+  background-color: #dd4b39;
+}
+
+.copyright {
+  text-align: center;
+}
+/* =============== END SOCIAL MEDIA ==============*/
+
